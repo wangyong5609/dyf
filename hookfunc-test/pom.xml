@@ -9,12 +9,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hookfunc-common</artifactId>
+    <artifactId>hookfunc-test</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>hookfunc-common-database</module>
-        <module>hookfunc-common-core</module>
-        <module>hookfunc-common-aliyun</module>
+        <module>aliyun-demo</module>
     </modules>
 
     <properties>
@@ -23,4 +21,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+  
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>

@@ -5,22 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.hookfunc</groupId>
-        <artifactId>dyf</artifactId>
+        <artifactId>hookfunc-common</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hookfunc-common</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>hookfunc-common-database</module>
-        <module>hookfunc-common-core</module>
-        <module>hookfunc-common-aliyun</module>
-    </modules>
+    <artifactId>hookfunc-common-aliyun</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    
+    <dependencies>
+    </dependencies>
 </project>

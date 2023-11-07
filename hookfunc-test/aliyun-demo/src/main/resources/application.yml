@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: aliyun-test
+
+# 阿里云OSS配置
+aliyun:
+  oss:
+    end-point: oss-cn-hangzhou.aliyuncs.com
+    access-key-id: LTAI5t9w*****
+    access-key-secret: OXK24t76*****
+    bucket-name: oss-test-img
